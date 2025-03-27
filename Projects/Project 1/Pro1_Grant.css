@@ -18,6 +18,7 @@
 }
 .menu{
     background-color: rgb(231, 169, 53);
+    display: flex;
 }
 .menulist{
     background-color: rgb(231, 169, 53);
