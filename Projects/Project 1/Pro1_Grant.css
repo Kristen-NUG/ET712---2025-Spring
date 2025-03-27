@@ -6,6 +6,8 @@
 }
 .webtitle{
     align-content: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .menu{
     background-color: rgb(231, 169, 53);
