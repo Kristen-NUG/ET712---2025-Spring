@@ -18,7 +18,8 @@
 }
 .menu{
     background-color: rgb(231, 169, 53);
-    display: block;
+    display: flex;
+    padding: 20px;
 }
 .menulist{
     background-color: rgb(231, 169, 53);
