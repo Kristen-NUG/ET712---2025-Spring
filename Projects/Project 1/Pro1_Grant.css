@@ -18,7 +18,7 @@
     text-align: center;
     font-family: "Winky Sans", sans-serif;
     font-optical-sizing: auto;
-    /*font-size:larger;*/
+    font-size:larger;
 }
 .menu{
     background-color: rgb(231, 169, 53);
@@ -33,5 +33,5 @@
     border-right: 10px;
     padding: 10px;
     font-family: "Winky Sans", sans-serif;
-    font-style: normal;
+    /*font-style: normal;*/
 }
