@@ -1,10 +1,12 @@
-
-.winky-sans-uniquifier{
-    font-family: "Winky Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
+@font-face{
+    font-family: 'Winky Sans';
+    src:url('Fonts/Winky Sans/winky-sans-latin-300-normal.woff2') format('woff2'),
+        url('Fonts/Winky Sans/winky-sans-latin-300-normal.woff') format('woff'),
+        url('Fonts/Winky Sans/winky-sans-latin-300-normal.ttf') format('truetype'),
+        url('Fonts/Winky Sans/winky-sans-latin-300-normal.svg#WinkySans') format('svg');
+    font-weight: 300 900;
     font-style: normal;
-  }
+}
 .body{
     background-color: rgb(196, 188, 121);
 }
