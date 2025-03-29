@@ -14,7 +14,8 @@
 .webtitle{
     align-content: center;
     text-align: center;
-    font-family: Winky_Sans;
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 .menu{
     background-color: rgb(231, 169, 53);
