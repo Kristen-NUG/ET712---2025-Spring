@@ -33,5 +33,8 @@
     border-right: 10px;
     padding: 10px;
     font-family: "Winky Sans", sans-serif;
-    /*font-style: normal;*/
+    font-size: small;
+}
+.menu:hover{
+    background-color: rgb(88, 150, 255);
 }
