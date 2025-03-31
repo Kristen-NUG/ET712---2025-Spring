@@ -80,8 +80,8 @@
     --colorB: rgb(255, 255, 255);
     --duration: 5s;
 
-    animation-name: changeColors;
+    animation-name: colorCycle;
     animation-duration: var(--duration);
     animation-iteration-count: infinite;
-    animation-timing-function: ease;
+    animation-timing-function: linear;
 }
