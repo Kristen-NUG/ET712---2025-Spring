@@ -78,11 +78,10 @@
 
     --colorA: rgb(0, 0, 0);
     --colorB: rgb(255, 255, 255);
-    --duration: 3s;
+    --duration: 5s;
 
     animation-name: changeColors;
     animation-duration: var(--duration);
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease;
 }
-
