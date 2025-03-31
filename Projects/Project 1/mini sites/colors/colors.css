@@ -59,6 +59,14 @@
 .index:hover{
     background-color: rgb(233, 162, 92);
 }
+@keyframes changeColors{
+    from{
+        color: var(--colorA);
+    }
+    to{
+        color: var(--colorB);
+    }
+}
 .intro{
     font-family: "Short Stack", sans-serif;
     font-size: 30px;
@@ -70,17 +78,11 @@
 
     --colorA: rgb(182, 129, 129);
     --colorB: rgb(64, 5, 136);
+    --duration: 3s;
 
     animation-name: changeColors;
     animation-duration: var(--duration);
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
-@keyframes changeColors{
-    from{
-        color: var(--colorA);
-    }
-    to{
-        color: var(--colorB);
-    }
-}
+

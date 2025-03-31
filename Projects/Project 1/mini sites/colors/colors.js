@@ -1,21 +1,20 @@
-let colour = document.querySelector('.colour')
-function colorChange(element){
-    let intro = element.querySelector('intro');
-    for (let i = 0; i < intro.length; i++){
-        let tro = intro[i];
-        let randomColor = .2 + Math.random() * 1;
-        tro.style.setProperty("--duration", randomColor+"s");
-
-    }
-    setInitialRandomColor(intro);
-    colour.addEventListener('animationiteration', changeColor, true)
+function getRandomColor() {
+    const r = Math.floor(Math.random() * 256);
+    const g = Math.floor(Math.random() * 256);
+    const b = Math.floor(Math.random() * 256);
+    return `rgb(${r}, ${g}, ${b})`;
 }
-colorChange(colour);
-function setInitialRandomColor(elements){
-    for (let i = 0; i < colour.length; i++){
-        let tro = elements[i];
-        tro.style.setProperty("--colorA", getRandomColor().value);
-        tro.style.setProperty("--colorB", getRandomColor().value);
+function setRandomColors() {
+    const introElement = document.querySelector('.intro');
+    const colorA = getRandomColor();
+    const colorB = getRandomColor();
+    const duration = (2 + Math.random() * 3) + 's'; 
 
-    }
+    introElement.style.setProperty('--colorA', colorA);
+    introElement.style.setProperty('--colorB', colorB);
+    introElement.style.setProperty('--duration', duration);
 }
+setRandomColors();
+
+const introElement = document.querySelector('.intro');
+introElement.addEventListener('animationiteration', setRandomColors);
