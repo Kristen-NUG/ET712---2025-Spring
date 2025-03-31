@@ -44,3 +44,11 @@
 .menulist:hover{
     background-color: rgb(240, 188, 137);
 }
+.index{
+    background-color: rgb(240, 188, 137);
+    border-radius: 10px;
+    padding: 10px;
+}
+.index:hover{
+    background-color: rgb(233, 162, 92);
+}
