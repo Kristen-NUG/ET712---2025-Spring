@@ -8,10 +8,10 @@
     font-style: normal;
 }
 .body{
-    background-color: hex(#F5F5F5);
+    background-color: rgb(245, 245, 245);
 }
 .head{
-    background-color: hex(#589ADB);
+    background-color: rgb(88, 154, 219);
 }
 .webtitle{
     align-content: center;
@@ -21,14 +21,14 @@
     font-size: 100px;
 }
 .menu{
-    background-color: hex(#C0D8F0);
+    background-color: rgb(192, 216, 240);
     display: flex;
     padding: 10px 20px;
     align-items: center;
     justify-content: space-between;
 }
 .menulist{
-    background-color: hex(#CFCBC8);
+    background-color: rgb(207, 203, 200);
     border-left: 10px;
     border-right: 10px;
     padding: 10px;
@@ -42,5 +42,5 @@
     background-color: rgb(140, 176, 239);
 }
 .menulist:hover{
-    background-color: hex(#F0BC89);
+    background-color: rgb(240, 188, 137);
 }
