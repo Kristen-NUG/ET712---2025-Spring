@@ -1,0 +1,40 @@
+@font-face{
+    font-family: 'Winky Sans';
+    src:url('Fonts/Winky Sans/winky-sans-latin-300-normal.woff2') format('woff2'),
+        url('Fonts/Winky Sans/winky-sans-latin-300-normal.woff') format('woff'),
+        url('Fonts/Winky Sans/winky-sans-latin-300-normal.ttf') format('truetype'),
+        url('Fonts/Winky Sans/winky-sans-latin-300-normal.svg#WinkySans') format('svg');
+    font-weight: 300 900;
+    font-style: normal;
+}
+.body{
+    background-color: rgb(196, 188, 121);
+}
+.head{
+    background-color: rgb(231, 169, 53);
+}
+.webtitle{
+    align-content: center;
+    text-align: center;
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 100px;
+}
+.menu{
+    background-color: rgb(231, 169, 53);
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.menulist{
+    background-color: rgb(235, 87, 42);
+    border-left: 10px;
+    border-right: 10px;
+    padding: 10px;
+    font-family: "Winky Sans", sans-serif;
+    font-size: small;
+}
+.menu:hover{
+    background-color: rgb(140, 176, 239);
+}
