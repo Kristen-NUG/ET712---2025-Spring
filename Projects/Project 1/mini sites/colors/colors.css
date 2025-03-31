@@ -76,8 +76,8 @@
     font-weight: 600;
     font-style: bold;
 
-    --colorA: rgb(182, 129, 129);
-    --colorB: rgb(64, 5, 136);
+    --colorA: rgb(0, 0, 0);
+    --colorB: rgb(255, 255, 255);
     --duration: 3s;
 
     animation-name: changeColors;
