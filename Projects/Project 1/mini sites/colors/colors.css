@@ -71,12 +71,12 @@
     --colorA: rgb(182, 129, 129);
     --colorB: rgb(64, 5, 136);
 
-    animation-name: Colors;
+    animation-name: changeColors;
     animation-duration: var(--duration);
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
-@keyframes Colors{
+@keyframes changeColors{
     from{
         color: var(--colorA);
     }
