@@ -7,6 +7,13 @@
     font-weight: 300 900;
     font-style: normal;
 }
+@font-face{
+    font-family: 'Short Stack';
+    src:url('Fonts/Short Stack/webfonts/short-stack-latin-400-normal.woff') format('woff'),
+        url('Fonts/Short Stack/webfonts/short-stack-latin-400-normal.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
 .body{
     background-color: rgb(245, 245, 245);
 }
@@ -51,4 +58,10 @@
 }
 .index:hover{
     background-color: rgb(233, 162, 92);
+}
+.intro{
+    font-family: "Short Stack", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: cornflowerblue dotted underline;
 }
