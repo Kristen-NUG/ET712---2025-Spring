@@ -59,3 +59,9 @@
 .index:hover{
     background-color: rgb(233, 162, 92);
 }
+.intro{
+    font-family: "Short Stack", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: cornflowerblue dotted underline;
+}
