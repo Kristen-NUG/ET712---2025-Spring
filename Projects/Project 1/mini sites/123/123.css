@@ -140,6 +140,7 @@
 .tee{
     width: 299px;
     height: 257.6px;
-    position: relative;
-    left: 650px;
+    /*position: relative;
+    left: 650px;*/
+    float: right;
 }
