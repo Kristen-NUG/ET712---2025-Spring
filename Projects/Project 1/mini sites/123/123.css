@@ -75,10 +75,17 @@
     color: black;
     font-weight: 400;
 }
-.one{
+.one,.three,.five,.seven,.nine{
     font-family: "Short Stack", sans-serif;
     font-size: 20px;
     text-align: left;
+    color: black;
+    font-weight: 400;
+}
+.zero,.two,.four,.six,.eight{
+    font-family: "Short Stack", sans-serif;
+    font-size: 20px;
+    text-align: right;
     color: black;
     font-weight: 400;
 }
