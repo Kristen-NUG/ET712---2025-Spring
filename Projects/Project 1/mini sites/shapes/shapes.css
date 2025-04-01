@@ -17,7 +17,7 @@
 .body{
     background-color: rgb(245, 245, 245);
     border-style: dotted rgb(244, 235, 116) rgb(116, 165, 244) bold;
-    display:flexbox;
+    display: inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
