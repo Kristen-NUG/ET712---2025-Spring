@@ -26,6 +26,7 @@
     align-content: center;
     text-align: center;
     font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
     font-size: 100px;
     font-display: flex;
 }
