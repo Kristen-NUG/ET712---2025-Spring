@@ -17,6 +17,7 @@
 .body{
     background-color: rgb(245, 245, 245);
     border-style: dotted rgb(244, 235, 116) rgb(116, 165, 244);
+    margin: 0 auto;
 }
 .head{
     background-color: rgb(88, 154, 219);
