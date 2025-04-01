@@ -89,6 +89,10 @@
     color: black;
     font-weight: 400;
 }
+.ze{
+    position: relative;
+    left: 2000px;
+}
 .on{
     width: 300px;
     height: 235px;
