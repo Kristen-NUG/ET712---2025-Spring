@@ -90,8 +90,9 @@
     font-weight: 400;
 }
 .ze{
-    position: relative;
-    left: 650px;
+    /*position: relative;
+    left: 650px;*/
+    float: right;
 }
 .on{
     width: 300px;
@@ -100,28 +101,31 @@
 .tw{
     width: 300px;
     height: 235px;
-    position: relative;
-    left: 650px;
+    /*position: relative;
+    left: 650px;*/
+    float: right;
 }
 .thr{
     width: 300px;
     height: 235px;
 }
-.fo{
+.fou{
     width: 300px;
     height: 235px;
-    position: relative;
-    left: 650px;
+    /*position: relative;
+    left: 650px;*/
+    float: right;
 }
-.fi{
+.fiv{
     width: 300px;
     height: 235px;
 }
 .s{
     width: 300px;
     height: 235px;
-    position: relative;
-    left: 650px;
+    /*position: relative;
+    left: 650px;*/
+    float: right;
 }
 .sev{
     width: 300px;
@@ -130,8 +134,9 @@
 .ei{
     width: 300px;
     height: 235px;
-    position: relative;
-    left: 650px;
+    /*position: relative;
+    left: 650px;*/
+    float: right;
 }
 .ni{
     width: 300px;
