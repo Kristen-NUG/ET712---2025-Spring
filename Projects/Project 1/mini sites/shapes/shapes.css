@@ -31,6 +31,7 @@
     font-family: "Winky Sans", sans-serif;
     font-optical-sizing: auto;
     font-size: 100px;
+    font-display: flex;
 }
 .menu{
     background-color: rgb(192, 216, 240);
