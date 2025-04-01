@@ -17,7 +17,13 @@
 .body{
     background-color: rgb(245, 245, 245);
     border-style: dotted rgb(244, 235, 116) rgb(116, 165, 244) bold;
-    display: flex;
+    display:flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 .head{
     background-color: rgb(88, 154, 219);
@@ -27,8 +33,7 @@
     text-align: center;
     font-family: "Winky Sans", sans-serif;
     font-optical-sizing: auto;
-    font-size: 100px;
-    font-display: flex;
+    font-size: 100px
 }
 .menu{
     background-color: rgb(192, 216, 240);
