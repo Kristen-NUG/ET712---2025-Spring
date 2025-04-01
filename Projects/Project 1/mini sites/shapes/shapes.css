@@ -16,7 +16,7 @@
 }
 .body{
     background-color: rgb(245, 245, 245);
-    border-style: dotted rgb(244, 235, 116) rgb(116, 165, 244);
+    border-style: dotted rgb(244, 235, 116) rgb(116, 165, 244) bold;
 }
 .head{
     background-color: rgb(88, 154, 219);
