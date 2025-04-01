@@ -82,7 +82,7 @@
     color: black;
     font-weight: 400;
 }
-.zero,.two,.four,.six,.eight,.tee{
+.zero,.two,.four,.six,.eight,.ten{
     font-family: "Short Stack", sans-serif;
     font-size: 20px;
     text-align: right;
@@ -96,7 +96,7 @@
 .tw{
     width: 300px;
     height: 235px;
-    text-align: right;
+    float: right;
 }
 .thr{
     width: 300px;
@@ -105,7 +105,7 @@
 .fo{
     width: 300px;
     height: 245px;
-    text-align: right;
+    float: right;
 }
 .fi{
     width: 300px;
@@ -114,7 +114,7 @@
 .s{
     width: 300px;
     height: 235px;
-    text-align: right;
+    float: right;
 }
 .sev{
     width: 300px;
@@ -123,7 +123,7 @@
 .ei{
     width: 300px;
     height: 235px;
-    text-align: right;
+    float: right;
 }
 .ni{
     width: 300px;
@@ -132,5 +132,5 @@
 .tee{
     width: 299px;
     height: 257.6px;
-    text-align: right;
+    float: right;
 }
