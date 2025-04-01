@@ -96,7 +96,8 @@
 .tw{
     width: 300px;
     height: 235px;
-    float: right;
+    position: relative;
+    left: 200px;
 }
 .thr{
     width: 300px;
@@ -105,7 +106,8 @@
 .fo{
     width: 300px;
     height: 245px;
-    float: right;
+    position: relative;
+    left: 200px;
 }
 .fi{
     width: 300px;
@@ -114,7 +116,8 @@
 .s{
     width: 300px;
     height: 235px;
-    float: right;
+    position: relative;
+    left: 200px;
 }
 .sev{
     width: 300px;
@@ -123,7 +126,8 @@
 .ei{
     width: 300px;
     height: 235px;
-    float: right;
+    position: relative;
+    left: 200px;
 }
 .ni{
     width: 300px;
@@ -132,5 +136,6 @@
 .tee{
     width: 299px;
     height: 257.6px;
-    float: right;
+    position: relative;
+    left: 200px;
 }
