@@ -1,4 +1,5 @@
 p.groove{
     border-style: groove;
     border-color: rgb(204, 204, 255);
+    border-width: 5px;
 }
