@@ -1,7 +1,7 @@
 import React from "react";
 import "../../index/index.css";
 
-const User_feedback = function(){
+const User_feedback = function(props){
     return(
         <>
             <main className="feedbackcontainer">
@@ -11,6 +11,8 @@ const User_feedback = function(){
                     <div className="cardfooter"><p className="addicon"><span>&#10011;</span>Add Feedback</p></div>
                 </section>
             </main>
+
+            <ModalWindow/>
         </>
     )
 }
