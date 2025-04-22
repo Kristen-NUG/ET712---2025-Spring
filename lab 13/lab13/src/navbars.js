@@ -6,9 +6,9 @@ const Navbars = function(){
     return(
         <>
          <header><h1>Navigation Bars</h1></header>
-        <nav>
-            <section>
-                <Link>QCC</Link>
+        <nav className="navheader">
+            <section className="iconlink">
+                <a href="https://www.qcc.cuny.edu/index.html" target="blank">QCC</a>
             </section>
             <section>
                 <button><Link to="/">Home</Link></button>
