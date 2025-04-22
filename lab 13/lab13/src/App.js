@@ -6,7 +6,7 @@ import About from './about';
 import Contact from './contact';
 import Navbars from './navbars';
 
-function App() {
+const App = function(){
   return (
     <>
       <h1>React Routing</h1>
