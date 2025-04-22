@@ -9,7 +9,7 @@ const Navbars = function(){
                 <Link>QCC</Link>
             </section>
             <section>
-                <button><Link to="/home">Home</Link></button>
+                <button><Link to="/">Home</Link></button>
                 <button><Link to="/about">About Us</Link></button>
                 <button><Link to="/contact">Contact Us</Link></button>
             </section>
