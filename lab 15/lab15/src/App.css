@@ -1,0 +1,75 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.title{
+  text-align: center;
+  color: brown;
+  padding: 1em;
+}
+.slicewrapper{
+  width: 60%;
+  margin: 2rem auto;
+  box-shadow: 1px 1px 5px lightgray;
+}
+.numberWrapper{
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+  background-color: lightblue;
+  color: white;
+}
+.numberWrapper>div{
+  border: solid gray 1px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 3rem;
+}
+.msg{
+  text-align: center;
+  font-weight: bolder;
+}
+.btngroup{
+  display: flex;
+  justify-content: space-evenly;
+}
+.btngroup>button{
+  width: 30%;
+  background-color: orangered;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+.btngroup>button:hover{
+  background-color: darkblue;
+  box-shadow: 1px 1px 5px gray;
+  font-weight: bolder;
+}
+.active{
+  background-color: orangered;
+  box-shadow: 0px 0px 5px 1px gray;
+}
+
+.info{
+  width: 900px;
+  padding: 2rem;
+}
+.readmore_btn{
+  margin-left: 1rem;
+  background-color: orangered;
+  padding: 0.2rem 0.5rem;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.hiddentext p{
+  width: 900px;
+  padding: 2rem;
+  background-color: aliceblue;
+  margin: auto;
+}
